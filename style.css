@@ -1,0 +1,63 @@
+body{
+    align-items: center;
+    justify-content: center;
+   background-image: linear-gradient(to right,rgba(0,16,171,0.96),rgba(57,255,243,1));
+ }
+ .container{
+     margin: auto;
+     align-items: center;
+     justify-content: center;
+     padding: 180px;
+     
+ }
+ 
+ .card{
+     margin: auto;
+     width:350px;
+     height: 500px;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+     flex-direction: column;
+     
+ }
+ .card h5{
+     font-family: "Poppins";
+     font-weight: bolder;
+     font-size: 30px; 
+ }
+ .numbers{
+    font-size: 180px;
+    font-weight: bold; 
+    background: linear-gradient(to right,rgba(0,16,171,0.96),rgba(57,255,243,1));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+ }
+ 
+ .button1{
+     padding:10px;
+     border-radius: 29px;
+     width:250px;
+    color:rgba(12,27,164,1);
+    font-weight: bolder;
+    font-family: "Poppins";
+    border-color:rgba(12,27,164,1) ;
+ }
+ 
+ .button2{
+     padding:10px;
+     border-radius: 29px;
+     width:250px;
+     color:rgba(12,27,164,1);
+    font-weight: bolder;
+    font-family: "Poppins";
+    border-color:rgba(12,27,164,1) ;
+ }
+ .button1:hover{
+    color:white;
+    background-color:rgba(12,27,164,1) ;
+}
+.button2:hover{
+    color:white;
+    background-color:rgba(12,27,164,1) ;
+}
