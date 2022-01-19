@@ -1,5 +1,5 @@
-let increment=document.querySelector(".btn1");
-let decrement=document.querySelector(".btn2");
+let increment=document.querySelector(".button1");
+let decrement=document.querySelector(".button2");
 let add=document.querySelector(".numbers");
 let sub=0;
 increment.addEventListener("click",function(){
